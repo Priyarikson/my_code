@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>My Webpage</title>
+    </head>
+    <body>
+
+<header class="centered">
+    <div class="alert alert-primary" role="alert">
+        My Resume!
+      </div>
+
+<h1>PRIYANKA RAJU</h1>
+<p>priyankaraju92@gmail.com</p>
+<p>JERSEY CITY, NJ 07306</p>
+Visit <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">Linkedin Profile</a>
+</header>
+
+<main>
+<p>I am interested in solving problems and exploring web technologies.I am a fast learner and a curious person and I believe in "learn-by-doing". Engineering professional with a Bachelors Degree in Electrical and Electronics Engineering.</p>
+<h2><button type="button" class="btn btn-success">Work Experience</button></h2>
+<table>
+    <tr>
+        <td>Junior Electrical Lecturer - Ace Polytechnic, Thrissur, India</td>
+        <td>December 2014 - May 2015</td>
+    </tr>
+</table>
+
+    <ul>
+    <li>Taught subjects under the syllabus of the Institution of Mechanical Engineers (IME), India.</li>
+    <li>Organized an industrial visit for 50 students at Malabar Cements Ltd, Kerala, India.</li>
+    <li>Established a positive relationship with students, parents, and college administrators/staff.</li>
+    </ul>
+
+<table>
+    <tr>
+        <td>Senior Secretary (Volunteer) - National Service Scheme, Kerala, India</td>
+        <td>2011 - 2013</td>
+    </tr>
+</table>
+<ul>
+    <li>Coordinated a seven-day camp attended by 25 students at a rural village</li>
+    <li>Volunteered in hospitals, orphanages, and destitute homes.</li>
+</ul>
+<h2><button type="button" class="btn btn-info">Education</button></h2>
+<table>
+    <tr>
+        <td> Bachelor of Engineering in Electrical and Electronics- Calicut University, Kerala, India</td>
+        <td>2009 - 2013</td>
+    </tr>
+</table>
+
+<ul>
+    <li>CGPA—7/10</li>
+    <li>Course work- Electric Circuit Theory, Microprocessors & Microcontrollers, Digital Electronics, Power
+    Electronics, Process Control & Instrumentation, Engineering Economics & Principles of Management.</li>
+    <li>Course project-Stability Evaluation of Transmission Line Employing UPFC</li>
+</ul>
+<form action="https://www.google.com/search" method="get">
+    <input name="q" type="text">
+    <input type="submit">
+</form>
+<h2><button type="button" class="btn btn-secondary">Certification</button></h2>
+
+<p>Visit <a href="cs50.html">CS50</a></p>
+
+<table>
+    <tr>
+        <td>CS50: Introduction to Computer Science,Harvard University</td>
+        <td>2022</td>
+    </tr>
+</table>
+<ul>
+    <li>Learned how to think algorithmically and solved  programming problems efficiently.</li>
+    <li>concepts like abstraction, algorithms, data structures, encapsulation, security, software engineering, and web development.</li>
+    <li>Engaged  with a vibrant community of like-minded learners from all levels of experience.Developed  and presented  a final programming project.</li>
+</ul>
+<table>
+    <tr>
+        <td><a href="https://www.credly.com/badges/eb49791e-ba08-4c49-8552-97a2ddb2d3d3/linked_in_profile">Microsoft Certified: Azure Fundamentals</a></td>
+        
+        <td>2022</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>The Odin Project</td>
+        <td>2022</td>
+    </tr>
+</table>
+</main>
+
+<footer>
+<h2><button type="button" class="btn btn-warning">Skills</button></h2>
+<p>HTML, CSS, JavaScript, Python, SQL, Bootstrap, Jinja, Flask, Microsoft Office (Excel, PowerPoint, Word), Google Workspace.</p>
+<p>Malayalam native speaker, fluent in English, intermediate level in Hindi</p>
+
+<h2><button type="button" class="btn btn-info">Activities &Interests</button></h2>
+Visit <a href="interests.html">My Youtube Channel</a>
+Visit <a href="WhatILove.html">What I Love</a>
+<p>Embroidery, Cooking, Videography.</p>
+<table>
+
+    <tr>
+        <td>1,Secured 3rd prize in the inter-collegiate speech competition held at Calicut University.</td>
+        <td>2011</td>
+    </tr>
+    <tr>
+        <td>2,Technical Head-“Tharang” annual Technical Festival of JECC, Kerala, India.</td>
+        <td>2011-2012</td>
+    </tr>
+    <tr>
+        <td>3,Attended Entrepreneurship program conducted by Gov. of Kerala, India.</td>
+        <td>2013</td>
+    </tr>
+    <tr>
+        <td>4,General Secretary- Women empowering cell, JECC, Kerala, India.</td>
+        <td>2011-2013</td>
+    </tr>
+    <tr>
+        <td>5,Program Coordinator-Community Development Program, JECC, Kerala, India.</td>
+        <td>2009-2013</td>
+    </tr>
+
+</table>
+
+<figure class="figure">
+    <img src="IMG_6539.JPG" class="figure-img img-fluid rounded" alt="Hello World">
+    <figcaption class="figure-caption">A program that says hello to the world.</figcaption>
+  </figure>
+</footer>
+<script>
+    function greet()
+    {
+        let name = document.querySelector('#name').value;
+        if(name ==='')
+        {
+            name = 'World';
+        }
+        document.querySelector('#result1').innerHTML='Hello,'+name+'!';
+    }
+
+
+
+</script>
+
+<form onsubmit="greet();return false;">
+    <input type="text" id="name">
+    <input type="submit">
+
+</form>
+
+<h2>Enter Your Name Please</h2>
+<div id ="result1">
+    Hello!
+  </div>
+
+</body>
+</html>

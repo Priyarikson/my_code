@@ -1,0 +1,48 @@
+body {
+    background-color: #fff;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+img {
+    width: 50%;
+    height: auto;
+  }
+
+table tr td:nth-child(2){
+    height: 50px;
+    text-align: right;
+  }
+.centered
+{
+    text-align: center;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+  }
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+.main
+{
+    font-size: medium;
+}
+.footer
+{
+    font-size: medium;
+}
+a
+{
+    color: #ff0000;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
